@@ -1,0 +1,37 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    margin: 0;
+    border: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a.link {
+    text-decoration: none;
+}
+.right {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+}
