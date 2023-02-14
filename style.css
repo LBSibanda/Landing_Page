@@ -3,16 +3,17 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
 
 .header {
+    height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     margin: 0;
     border: 0;
+
 }
 
 ul {
@@ -20,18 +21,36 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 16px;
 }
 
-a.link {
+a:link {
     text-decoration: none;
 }
-.right {
-    font-size: 18px;
-    color: #E5E7EB;
-}
+
 
 .left {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 72px;
+}
+.main {
+    font-size: 48px;
+    color:#F9FAF8;
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
