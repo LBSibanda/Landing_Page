@@ -76,20 +76,32 @@ p {
 
 div p {
     text-align: center;
+    
 }
+
+.info div p {
+    margin-top: 0;
+}
+.info_header {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
 .info {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 50px;
     font-size: 12px;
+    height: 500px;
 }
 
 .info img {
     margin-top: 20px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: #3882F6 2px solid;
     border-radius: 20px;
 }
@@ -102,8 +114,8 @@ div p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     border: 15px black;
 }
 
@@ -159,7 +171,6 @@ div p {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
-    border-width: 10px;
     border: 1px solid white;
     width: 90px;
     padding: 5px;
