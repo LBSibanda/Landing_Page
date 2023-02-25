@@ -60,7 +60,7 @@ img {
     height: auto;
 }
 
-button {
+.hero_left button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
@@ -144,14 +144,25 @@ div p {
     padding: 20px;
     width: 800px;
     display: flex;
-    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left_call .t_call {
     text-align: start;
 }
 
-.callsign {
-    border-style: solid white;
-    border: 10px;
-
+.right_call .callsign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border-width: 10px;
+    border: 1px solid white;
+    width: 90px;
+    padding: 5px;
 }
 
 .footer{
