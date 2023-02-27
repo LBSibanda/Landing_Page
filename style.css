@@ -44,10 +44,12 @@ a:link {
     font-size: 48px;
     color:#F9FAF8;
     margin-bottom: 1px;
+    text-align: left;
 }
 
 .secondary {
     margin-top: 1px;
+    text-align: left;
 }
 .secondary,
 a:link {
@@ -92,10 +94,10 @@ div p {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 50px;
-    font-size: 12px;
-    height: 500px;
+    font-size: 16px;
+    height: 400px;
 }
 
 .info img {
@@ -155,6 +157,7 @@ div p {
     border-radius: 10px;
     padding: 20px;
     width: 800px;
+    height: 80px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -167,6 +170,11 @@ div p {
     text-align: start;
 }
 
+.left_call .t_call,
+.left_call .b_call {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .right_call .callsign {
     background-color: #3882F6;
     color: #F9FAF8;
